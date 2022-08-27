@@ -1,0 +1,68 @@
+.game_fluid{
+  background-color: #000;
+  background-image: url('/src/Assets/pattern.png');
+  border-bottom: 1px solid #fdc609;
+  padding-bottom: 40px;
+}
+.Gallery_Heading {
+  color: #fdc609;
+  font-family: "Blaka", cursive;
+  font-size: 150px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.Gallery_1 {
+  width: 100%;
+  height: 700px;
+}
+.Gallery_2,
+.Gallery_3 {
+  width: 100%;
+  height: 350px;
+}
+.Gallery_4 {
+  width: 100%;
+  height: 330px;
+  margin-top: 20px;
+}
+.Gallery_5 {
+  width: 100%;
+  height: 250px;
+}
+.Gallery_6 {
+  width: 100%;
+  height: 524px;
+}
+.Gallery_7 {
+  width: 100%;
+  height: 400px;
+}
+.Gallery_8 {
+  width: 100%;
+  height: 200px;
+}
+.Gallery_9 {
+  width: 100%;
+  height: 450px;
+}
+.Gallery_10 {
+  width: 100%;
+  height: 420px;
+}
+.Gallery_11 {
+  width: 100%;
+  height: 226px;
+}
+.Gallery_12 {
+  width: 100%;
+  height: 200px;
+}
+@media only screen and (max-width: 768px) {
+    .Gallery_Heading{
+        font-size: 50px;
+    }
+    .Gallery_2, .Gallery_3, .Gallery_6, .Gallery_7, .Gallery_10{
+        margin-top: 20px;
+    }
+    }

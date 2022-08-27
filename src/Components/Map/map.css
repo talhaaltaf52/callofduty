@@ -1,0 +1,9 @@
+.map_fluid {
+  background-color: #fff;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  border-bottom: 1px solid #fdc609;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+    url("/src/Assets/mapbg.jpg");
+  background-size: cover;
+}

@@ -1,0 +1,33 @@
+.ContactUs_Fluid {
+  height: 78vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url("/src/Assets/contact.jpg");
+  background-size: cover;
+  background-position: top center;
+  border-bottom: 1px solid #fdc609;
+}
+.contactus_heading {
+  color: #fff;
+  padding-top: 220px;
+  font-size: 50px;
+  font-family: "Chivo", sans-serif;
+}
+.contactus_sub_heading {
+  color: #fff;
+  width: 50%;
+  padding-top: 20px;
+  font-family: "Work Sans", sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .ContactUs_Fluid {
+    background-position: top center;
+    height: 50vh;
+  }
+  .contactus_heading {
+    padding-top: 50px;
+  }
+  .contactus_sub_heading {
+    width: 70%;
+  }
+}

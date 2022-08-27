@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Source+Code+Pro:wght@300&display=swap');
+
+.review_fluid {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("/src/Assets/gamebg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  border-bottom: 1px solid #fdc609;
+  padding-bottom: 20px;
+}
+.review_button {
+  color: #fff;
+  background-color: #ff205f;
+  padding: 5px 25px 8px 25px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: small;
+  margin-top: 80px;
+}
+.review_heading {
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.Review_Img_1{
+  width: 265px;
+  height: 350px;
+}
+.review_button_1{
+  color: #fff;
+  background-color: #ffb320;
+  border: none;
+  outline: none;
+  border-radius: 100%;
+  width: 20%;
+  padding: 11px 0 12px 0;
+  position: relative;
+  left: -70px;
+  top: -375px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.review_heading_1{
+  color: #000;
+  font-family: 'Gugi', cursive;
+}
+.review_subheading{
+  color: #000;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
+  font-size: small;
+}
+.review_button_2{
+  color: #fff;
+  background-color: #694eae;
+  border: none;
+  outline: none;
+  border-radius: 100%;
+  width: 20%;
+  padding: 11px 0 12px 0;
+  position: relative;
+  left: -70px;
+  top: -375px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.review_button_3{
+  color: #fff;
+  background-color: #4eae60;
+  border: none;
+  outline: none;
+  border-radius: 100%;
+  width: 20%;
+  padding: 11px 0 12px 0;
+  position: relative;
+  left: -70px;
+  top: -375px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.review_button_4{
+  color: #fff;
+  background-color:	#ff20ae;
+  border: none;
+  outline: none;
+  border-radius: 100%;
+  width: 20%;
+  padding: 11px 0 12px 0;
+  position: relative;
+  left: -70px;
+  top: -375px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.review_main_div{
+  background-color: #fff;
+  padding-bottom: 5px;
+}
+@media only screen and (max-width:768px) {
+  .review_main_div{
+    margin-bottom: 30px;
+  }
+  .review_heading{
+    margin-bottom: 50px;
+  }
+  .Review_Img_1{
+    width: 100%;
+  }
+  .review_button_1, .review_button_2, .review_button_3, .review_button_4{
+    width: 15%;
+    position: relative;
+    left: -100px !important;
+  }
+}

@@ -1,0 +1,61 @@
+.rating_fluid{
+  background-color: #000;
+  background-image: url('/src/Assets/pattern.png');
+  border-bottom: 1px solid #fdc609;
+}
+.Rating_Img_1 {
+  width: 100%;
+  height: 350px;
+}
+.rating_main_div {
+  background-color: #fff;
+  padding-bottom: 5px;
+}
+.rating_button_1 {
+  color: #fff;
+  background-color: #ffb320;
+  border: none;
+  outline: none;
+  border-radius: 100%;
+  width: 10%;
+  padding: 11px 0 12px 0;
+  position: relative;
+  left: 20px;
+  top: -375px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.rating_heading_1 {
+  color: #000;
+  text-align: center;
+  font-family: "Quantico", sans-serif;
+}
+.rating_subheading {
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  font-size: small;
+  font-family: "Jura", sans-serif;
+}
+.rating_button {
+  background-color: #fdc609;
+  color: #000;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  border-radius: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+.rating_button_1{
+  width: 17%;
+}  
+.Col_2{
+  margin-top: 40px !important;
+}
+}

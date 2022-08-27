@@ -1,0 +1,81 @@
+.contact_fluid {
+  background-color: #000;
+  border-bottom: 1px solid #fdc609;
+  padding: 50px 0 40px 0;
+}
+.input_name {
+  padding: 7px 5px 7px 15px;
+  border: none;
+  outline: none;
+  width: 48%;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.input_email {
+  padding: 7px 5px 7px 15px;
+  border: none;
+  outline: none;
+  width: 48%;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.input_subject {
+  padding: 7px 5px 7px 15px;
+  border: none;
+  outline: none;
+  width: 99.5%;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.text_area {
+  padding: 7px 5px 7px 15px;
+  border: none;
+  outline: none;
+  width: 99.5%;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.form_button {
+  background-color: #fdc609;
+  color: #000;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  border-radius: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.icons_ul {
+  list-style-type: none;
+}
+.icons_li {
+  float: left;
+  padding-right: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+.reply_heading {
+  color: #fff;
+  font-family: 'Chivo', sans-serif;
+  padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .reply_heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .input_name,
+  .input_subject,
+  .text_area {
+    width: 100%;
+  }
+  .input_email {
+    width: 100%;
+    margin-left: 0%;
+  }
+}

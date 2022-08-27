@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Economica&family=Saira+Extra+Condensed:wght@200&display=swap");
+
+.tournament_fluid {
+ background-color: #000;
+ background-image: url('/src/Assets/pattern.png');
+ padding-top: 100px;
+ padding-bottom: 100px;
+ border-bottom: 1px solid #fdc609;
+}
+.champ_img {
+  width: 175px;
+  height: 180px;
+}
+.tournament_columns {
+  background-color: #252525;
+  border-right: 10px solid #000;
+}
+.tournament_columns1 {
+  background-color: #252525;
+  border-left: 10px solid #000;
+}
+.tournament_button {
+  color: #fff;
+  background-color: #ff4500;
+  position: relative;
+  left: -11px;
+  font-size: small;
+  padding: 7px 20px 7px 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  outline: none;
+}
+.free_champ_button {
+  color: #000;
+  background-color: #fdc609;
+  position: relative;
+  left: -11px;
+  font-size: small;
+  padding: 7px 20px 7px 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  outline: none;
+}
+.champ_heading {
+  color: #fdc609;
+  margin-left: 30px;
+  font-family: "Black Ops One", cursive;
+}
+.champ_ul {
+  list-style: none;
+}
+.champ_li {
+  color: #fff;
+  font-family: "Economica", sans-serif;
+  font-size: 18px;
+}
+.champ_span {
+  color: #afb5b6;
+  font-family: "Economica", sans-serif;
+  font-size: 18px;
+}
+.champ_para {
+  color: #afb5b6;
+  margin-left: 30px;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 17px;
+}
+.champ_span1 {
+  color: #fdc609;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 768px) {
+  .champ_img {
+    width: 100%;
+    height: 200px;
+  }
+  .tournament_columns {
+    border: none;
+  }
+  .tournament_columns1 {
+    margin-top: 30px !important;
+    border: none;
+  }
+  .champ_heading {
+    margin-top: 20px;
+    margin-left: 0px;
+    text-align: left;
+  }
+  .champ_ul,
+  .champ_para {
+    position: relative;
+    left: -30px;
+  }
+}

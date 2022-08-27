@@ -1,0 +1,115 @@
+.footer_fluid {
+  background-color: #000;
+  background-image: url('/src/Assets/pattern.png');
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #fdc609;
+}
+.footer_logo {
+  width: 60px;
+  height: 60px;
+  color: #fdc609;
+}
+.footer_logo_name {
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: "Blaka", cursive;
+  position: relative;
+  top: 7px;
+  left: 5px;
+}
+.footer_logo_name_1 {
+  color: #fdc609;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: "Blaka", cursive;
+  position: relative;
+  top: 7px;
+  left: 5px;
+}
+.footer_img {
+  width: 350px;
+  height: 350px;
+  margin-top: 20px;
+}
+.footer_sub_heading {
+  color: #fff;
+  margin-top: 25px;
+  font-family: 'Source Code Pro', monospace;
+}
+.footer_img_1 {
+  width: 100px;
+  height: 100px;
+}
+.footer_col {
+  background-color: #252525;
+  border-right: 15px solid #000;
+}
+.footer_heading {
+  color: #fff;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.footer_heading1 {
+  color: #fdc609;
+}
+.footer_sub_heading1 {
+  color: #fff;
+  font-family: "Jura", sans-serif;
+  font-size: small;
+}
+.footer_sub_heading2 {
+  color: #afb5b6;
+  font-family: "Teko", sans-serif;
+  font-size: large;
+  letter-spacing: 2px;
+}
+.footer_col1 {
+  background-color: #252525;
+  border-left: 15px solid #000;
+}
+.footer_img_2 {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+
+.footer_fluid1{
+  background-color: #252525;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-bottom: 1px solid #fdc609;
+}
+
+.footer_ul{
+  list-style: none;
+}
+.footer_li{
+  float: left;
+  color: #fff;
+  padding-left: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.footer_li:hover{
+  color: #fdc609;
+}
+
+@media only screen and (max-width:768px) {
+  .footer_img{
+    display: none;
+  }
+  .footer_col{
+    border-right: 0px;
+  }
+  .footer_col1{
+    border-left: 0px;
+    margin-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  .footer_div{
+    text-align: center;
+  }
+}

@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Blaka&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+.cod_name {
+  color: #fff;
+  font-size: xx-large;
+  text-transform: uppercase;
+  font-family: "Blaka", cursive;
+  position: relative;
+  top: 7px;
+  left: 5px;
+}
+.cod_name_1 {
+  color: #fdc609;
+  font-size: xx-large;
+  text-transform: uppercase;
+  font-family: "Blaka", cursive;
+  position: relative;
+  top: 7px;
+  left: 5px;
+}
+
+.Logo_1 {
+  width: 50px;
+  height: 50px;
+  color: #fdc609;
+}
+
+.nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav_links {
+  font-weight: bold;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.home_link {
+  color: #fff;
+  margin-left: 20px;
+  margin-top: 8px;
+  text-decoration: none;
+}
+.home_link:hover {
+  color: #fdc609;
+}
+.forums_link {
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 8px;
+  text-decoration: none;
+}
+.forums_link:hover {
+  color: #fdc609;
+}
+.contact_link {
+  color: #fff;
+  margin-right: 20px;
+  margin-top: 8px;
+  text-decoration: none;
+}
+.contact_link:hover {
+  color: #fdc609;
+}
+.button_1 {
+  background-color: #fdc609;
+  color: #000;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  border-radius: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.navbar-toggler-icon{
+  background-color: #fdc609; 
+}
+
+.active{
+  color: #fdc609;
+}
+
+.ant-dropdown-link{
+  color: #fff !important;
+  padding: 5px 20px !important;
+  background-color: #fdc609 !important;
+  border-radius: 25px !important;
+  font-family: 'Nunito', sans-serif;
+}
+.Menu_Items{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: small;
+  padding-left: 25px;
+}
+.logout_button{
+  color: #fdc609;
+  background-color: #fff;
+  font-size: small;
+  border: none;
+  outline: none;
+  font-family: 'Nunito', sans-serif;
+}
+.down_arrow{
+  position: relative;
+  top: -2px;
+  left: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+  .button_1 {
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .contact_link{
+      margin-left: 20px;
+  }
+}

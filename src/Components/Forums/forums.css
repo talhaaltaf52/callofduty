@@ -1,0 +1,32 @@
+.forums_fluid {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("/src/Assets/gamebg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-bottom: 1px solid #fdc609;
+  padding-bottom: 30px;
+}
+.forums_heading{
+    color: #fff;
+    font-weight: 500;
+    padding: 80px 0 80px 0;
+}
+.forums_Img_1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+.forums_div{
+    background-color: transparent;
+    padding: 30px 0 50px 30px;
+    border: 1px solid #fdc609;
+    border-radius: 7px;
+}
+
+@media only screen and (max-width: 768px) {
+  .div_form{
+    position: relative;
+    top: 5%;
+  }
+}
